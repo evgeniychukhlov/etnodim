@@ -215,24 +215,38 @@ ul {
   gap: 10px;
   align-items: center;
   font-size: 12px;
+  margin-top: 50px;
 }
-.shop-container-views p {
+.shop-container-sort p {
   position: relative;
 }
-.shop-container-views p::after {
+.shop-container-sort p::after {
   content: "";
   position: absolute;
-  top: 2px;
-  left: 135px;
+  top: 5px;
+  left: 180px;
   border: solid black;
   border-width: 0 1px 1px 0;
   display: inline-block;
   padding: 3px;
   transform: rotate(45deg);
 }
-.shop-container-views h2 {
+/* .shop-container-views h2 {
   margin-left: 850px;
+} */
+.shop-container-sort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+  /* height: auto; */
+  margin-top: -63px;
+  margin-left: -28px;
 }
+.shop-container-sort span {
+  color: #565656;
+}
+
 .cube {
   background: #565656;
   width: 6px;
