@@ -1354,6 +1354,31 @@ footer {
     top: 338px;
   }
 }
+@media only screen and (max-width: 450px) {
+  .main-container {
+    width: 430px;
+  }
+  .description-container-image1 {
+    margin-left: 75px;
+  }
+  .description-container-image2 {
+    margin-left: 286px;
+  }
+  .drabyna-container-block {
+    width: 455px;
+    top: 338px;
+  }
+  .description-container-image3 {
+    width: 190px;
+    margin-top: -56px;
+    margin-left: 266px;
+  }
+  .description-container-image4 {
+    margin-top: 16px;
+    width: 181px;
+    margin-left: 3px;
+  }
+}
 @media only screen and (max-width: 425px) {
   .web {
     display: none;
