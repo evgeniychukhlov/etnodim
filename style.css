@@ -195,9 +195,17 @@ h2 {
   overflow-x: auto;
 }
 .items-container::-webkit-scrollbar {
-  display: none;
+  display: block;
+  height: 5px;
 }
-
+.items-container::-webkit-scrollbar-thumb {
+  background: #da1f39;
+  display: block;
+}
+.items-container::-webkit-scrollbar-track {
+  background: rgba(218, 31, 57, 0.3);
+  opacity: 30%;
+}
 .items-container img {
   width: 325px;
   height: 400px;
@@ -532,7 +540,4 @@ footer {
 }
 .footer-copyright {
   margin-top: 70px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #b30000;
 }
