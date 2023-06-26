@@ -1559,3 +1559,14 @@ footer {
     height: 370px;
   }
 }
+@media only screen and (max-width: 425px) {
+  .main-container {
+    width: auto;
+  }
+  .description-container-image1 {
+    margin-left: 38px;
+  }
+  .description-container-image2 {
+    margin-left: 249px;
+  }
+}
