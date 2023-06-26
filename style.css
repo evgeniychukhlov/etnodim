@@ -1339,6 +1339,17 @@ footer {
     height: 370px;
   }
 }
+@media only screen and (max-width: 450px) {
+  .main-container {
+    width: 430px;
+  }
+  .description-container-image1 {
+    margin-left: 76px;
+  }
+  .description-container-image2 {
+    margin-left: 288px;
+  }
+}
 @media only screen and (max-width: 425px) {
   .web {
     display: none;
