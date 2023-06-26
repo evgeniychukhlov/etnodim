@@ -1139,7 +1139,7 @@ footer {
     margin-top: 50px;
   }
 }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 500px) {
   .web {
     display: none;
   }
@@ -1178,6 +1178,9 @@ footer {
   .main-container-scroll {
     margin-top: -11px;
   }
+  .main-items-container {
+    padding: 0 10px;
+  }
   .description-container-image1 {
     margin-left: 100px;
     width: 94px;
@@ -1202,19 +1205,23 @@ footer {
     background-size: cover;
     height: 264px;
     text-align: center;
+    width: 100%;
   }
   .new-collection-container .button {
     margin-top: 0px;
   }
   .new-collection-container-block {
-    width: 530px;
+    width: auto;
     position: unset;
-    margin-top: 169px;
+    margin-top: 203px;
   }
   .new-collection-container-dsc {
     justify-content: center;
     width: auto;
     padding: 0;
+  }
+  .new-collection-container-paragraph {
+    padding: 5px 80px;
   }
   .sales {
     margin-top: 230px;
@@ -1252,12 +1259,12 @@ footer {
   .description-container-image3 {
     width: 190px;
     margin-top: -56px;
-    margin-left: 319px;
+    margin-left: 292px;
   }
   .description-container-image4 {
     margin-top: 16px;
     width: 181px;
-    margin-left: 50px;
+    margin-left: 28px;
   }
   .drabyna-container {
     flex-direction: column;
@@ -1324,5 +1331,9 @@ footer {
     margin-left: 0;
     padding-right: 0;
     margin-top: 50px;
+  }
+  .item {
+    width: 300px;
+    height: 370px;
   }
 }
