@@ -814,6 +814,48 @@ footer {
     padding-right: 100px;
   }
 }
+@media only screen and (max-width: 1084px) {
+  .description-container-image1 {
+    margin-left: 123px;
+  }
+  .description-container-image2 {
+    margin-left: 758px;
+  }
+  .description-container-image3 {
+    margin-left: 752px;
+  }
+  .description-container-image4 {
+    margin-left: 62px;
+  }
+  .new-collection-container-block {
+    width: 1040px;
+  }
+  .new-collection-container-dsc .brand-name {
+    color: #939694;
+    text-transform: uppercase;
+    margin-top: 64px;
+  }
+  .new-collection-container {
+    height: 500px;
+  }
+  .drabyna-container-block {
+    width: 1017px;
+    top: 320px;
+  }
+  .drabyna-container-dsc {
+    top: -184px;
+    left: -1px;
+  }
+  .followus-container-instagram img {
+    width: 214px;
+    height: auto;
+  }
+  .contact {
+    margin-left: -19px;
+    padding-right: 100px;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .description-container-image1 {
     margin-left: 91px;
