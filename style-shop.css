@@ -317,6 +317,7 @@ footer {
   margin-top: 30px;
   padding: 0 80px;
   height: 350px;
+  font-size: 14px;
 }
 .footer-logo {
   display: flex;
