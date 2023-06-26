@@ -1339,15 +1339,19 @@ footer {
     height: 370px;
   }
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
   .main-container {
     width: 430px;
   }
   .description-container-image1 {
-    margin-left: 76px;
+    margin-left: 91px;
   }
   .description-container-image2 {
-    margin-left: 288px;
+    margin-left: 302px;
+  }
+  .drabyna-container-block {
+    width: 455px;
+    top: 338px;
   }
 }
 @media only screen and (max-width: 425px) {
@@ -1571,10 +1575,17 @@ footer {
   }
 
   .philosophy-container-image1 {
-    left: 118px;
+    left: 89px;
   }
   .description-container-image3 {
-    margin-left: 231px;
+    width: 152px;
+    margin-top: -32px;
+    margin-left: 233px;
+  }
+  .description-container-image4 {
+    margin-top: 16px;
+    width: 144px;
+    margin-left: 3px;
   }
   .drabyna-container-dsc {
     top: 126px;
