@@ -1180,6 +1180,7 @@ footer {
   }
   .main-items-container {
     padding: 0 10px;
+    width: 100%;
   }
   .description-container-image1 {
     margin-left: 100px;
@@ -1322,6 +1323,7 @@ footer {
   footer {
     padding: 0 10px;
     height: 500px;
+    width: 100%;
   }
   .footer-columns-info {
     gap: 20px;
@@ -1352,11 +1354,11 @@ footer {
     font-size: 18px;
   }
   .main-container {
-    margin: 0;
+    margin: 0 10px;
     background-size: cover;
     background-position: top;
     padding: 0 10px;
-    width: 100%;
+    width: 405px;
     height: 400px;
   }
   .main-container-text {
@@ -1379,6 +1381,7 @@ footer {
   .main-items-container {
     padding: 10px;
     margin: 0;
+    width: 100%;
   }
   .description-container-image1 {
     margin-left: 63px;
@@ -1529,6 +1532,7 @@ footer {
   footer {
     padding: 0 10px;
     height: 500px;
+    width: 100%;
   }
   .footer-columns-info {
     gap: 20px;
