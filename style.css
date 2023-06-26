@@ -1559,7 +1559,7 @@ footer {
     height: 370px;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 375px) {
   .main-container {
     width: auto;
   }
@@ -1568,5 +1568,18 @@ footer {
   }
   .description-container-image2 {
     margin-left: 249px;
+  }
+
+  .philosophy-container-image1 {
+    left: 118px;
+  }
+  .description-container-image3 {
+    margin-left: 231px;
+  }
+  .drabyna-container-dsc {
+    top: 126px;
+    left: 10px;
+    padding-bottom: 26px;
+    padding-top: 26px;
   }
 }
