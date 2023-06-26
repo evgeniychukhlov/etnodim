@@ -111,6 +111,7 @@ h2 {
 .main-container-text {
   padding-top: 274px;
   margin-left: 80px;
+  padding-bottom: 130px;
 }
 .main-container h1 {
   color: white;
@@ -144,7 +145,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 130px;
+  margin-top: -60px;
 }
 .text-color-white {
   color: white;
@@ -240,15 +241,17 @@ h2 {
 .new-collection-container {
   background: url(img/new-collection-container-font.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   margin-top: 128px;
   padding: 80px 80px 0 80px;
   display: flex;
   justify-content: center;
+  height: 650px;
 }
 .new-collection-container-block {
   display: flex;
   flex-direction: row;
+  position: absolute;
 }
 .new-collection-container-dsc {
   background-color: #ffffff;
@@ -270,6 +273,7 @@ h2 {
   text-align: center;
   line-height: 140.3%;
   margin-top: -15px;
+  padding: 0 50px;
 }
 .new-collection-container-img {
   width: 50%;
@@ -291,6 +295,9 @@ h2 {
   color: #939694;
   text-decoration: line-through;
   margin-left: 10px;
+}
+.sales {
+  margin-top: 200px;
 }
 .sales .item-description {
   width: 325px;
@@ -540,4 +547,177 @@ footer {
 }
 .footer-copyright {
   margin-top: 70px;
+}
+@media only screen and (max-width: 2560px) {
+  .main-container {
+    background-size: cover;
+  }
+  .description-container-image2 {
+    margin-left: 1499px;
+  }
+  .description-container-image1 {
+    margin-left: 757px;
+  }
+  .new-collection-container {
+    background-size: cover;
+  }
+  .description-container-image3 {
+    margin-left: 1490px;
+  }
+  .description-container-image4 {
+    width: 342px;
+    margin-left: 765px;
+  }
+  .welcome-container-people {
+    position: relative;
+    top: -720px;
+    width: 40%;
+    left: 1188px;
+  }
+  .welcome-container-forest img {
+    width: 1051px;
+    height: auto;
+  }
+  .contact {
+    margin-left: 817px;
+  }
+}
+@media only screen and (max-width: 1920px) {
+  .description-container-image1 {
+    margin-left: 437px;
+  }
+  .description-container-image2 {
+    margin-left: 1171px;
+  }
+  .description-container-image3 {
+    margin-left: 1172px;
+  }
+  .description-container-image4 {
+    width: 342px;
+    margin-left: 443px;
+  }
+  .welcome-container-people {
+    position: relative;
+    top: -530px;
+    width: 40%;
+    left: 819px;
+  }
+  .welcome-container-forest {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -470px;
+  }
+  .welcome-container-forest img {
+    width: 782px;
+    height: auto;
+  }
+  .contact {
+    margin-left: 443px;
+    padding-right: 200px;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .main-container {
+    background-size: cover;
+  }
+  .main-container-text {
+    padding-top: 97px;
+    margin-left: 0;
+    padding-bottom: 130px;
+  }
+  .description-container-image1 {
+    margin-left: 297px;
+    width: 209px;
+    height: auto;
+  }
+  .description-container-image2 {
+    width: 204px;
+    height: auto;
+    margin-top: -142px;
+    margin-left: 941px;
+  }
+  .description-container-image3 {
+    width: 317px;
+    margin-top: -77px;
+    margin-left: 930px;
+  }
+  .description-container-image4 {
+    width: 307px;
+    margin-left: 240px;
+  }
+  .new-collection-container {
+    height: 600px;
+  }
+  .new-collection-container-dsc h2 {
+    padding: 0 60px;
+  }
+  .new-collection-container-dsc p {
+    font-size: 14px;
+    margin-top: -10px;
+  }
+  .new-collection-container-block {
+    width: 1280px;
+  }
+
+  .sales {
+    margin-top: 100px;
+  }
+  .button {
+    background: #da1f39;
+    color: white;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    padding: 12px 48px;
+    border: 0;
+    font-family: "Ralewey";
+    cursor: pointer;
+  }
+  .drabyna-container-back {
+    width: 100%;
+    max-height: 630px;
+    position: absolute;
+  }
+  .drabyna-container-block {
+    position: relative;
+    width: 1280px;
+    height: auto;
+    top: 350px;
+    right: 0;
+  }
+  .drabyna-container p {
+    font-size: 14px;
+  }
+  .drabyna-container-dsc {
+    top: -283px;
+    left: 0;
+  }
+  .drabyna-container .button {
+    margin-top: 60px;
+    margin-bottom: 65px;
+  }
+  .welcome-container-forest img {
+    width: 710px;
+    height: auto;
+  }
+  .welcome-container-people {
+    position: relative;
+    top: -474px;
+    width: 650px;
+    left: 567px;
+  }
+  .followus-container {
+    margin-top: -300px;
+  }
+
+  .followus-container-instagram img {
+    width: 273px;
+    height: auto;
+  }
+  .contact {
+    margin-left: 154px;
+  }
+}
+@media only screen and (max-width: 1220px) {
 }
