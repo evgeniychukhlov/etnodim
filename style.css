@@ -720,4 +720,375 @@ footer {
   }
 }
 @media only screen and (max-width: 1220px) {
+  header {
+    padding-left: 40px;
+  }
+  .header-rightside {
+    padding-right: 40px;
+  }
+  .main-container {
+    padding: 0 40px;
+    margin: 10px 40px;
+    background-size: contain;
+  }
+  .main-container-text {
+    padding-top: 77px;
+  }
+  .description-container-image1 {
+    margin-left: 190px;
+  }
+  .welcome-container-contacts {
+    font-size: 14px;
+  }
+  .new-collection-container {
+    height: 550px;
+  }
+  .new-collection-container-block {
+    width: 1080px;
+  }
+  .new-collection-container-dsc {
+    padding-bottom: 43px;
+  }
+  .new-collection-container-img {
+    width: 50%;
+    height: auto;
+  }
+  .main-items-container {
+    padding: 0 40px;
+  }
+  .description-container-image2 {
+    margin-left: 823px;
+  }
+  .description-container-image3 {
+    margin-left: 823px;
+  }
+  .description-container-image4 {
+    margin-left: 130px;
+  }
+  .drabyna-container-block {
+    width: 1080px;
+    top: 320px;
+  }
+  .drabyna-container-dsc {
+    top: -216px;
+    left: -1px;
+  }
+  .drabyna-container .button {
+    margin-top: 35px;
+  }
+  .welcome-container-forest img {
+    width: 450px;
+    height: auto;
+  }
+  .welcome-container-people {
+    position: relative;
+    top: -300px;
+    width: 412px;
+    left: 567px;
+  }
+  .followus-container-instagram img {
+    width: 230px;
+    height: auto;
+  }
+  .welcome-container-forest {
+    margin-top: -335px;
+  }
+  .welcome-container {
+    margin-top: -150px;
+    padding-left: 40px;
+  }
+  .followus-container {
+    margin-top: -200px;
+  }
+  .philosophy-container {
+    gap: 100px;
+  }
+  .philosophy-container-paragraph {
+    padding-right: 150px;
+  }
+  footer {
+    padding: 0 40px;
+  }
+  .contact {
+    margin-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .description-container-image1 {
+    margin-left: 91px;
+  }
+  .description-container-image2 {
+    margin-left: 729px;
+  }
+  .description-container-image3 {
+    width: 251px;
+    margin-top: -39px;
+    margin-left: 728px;
+  }
+  .description-container-image4 {
+    width: 251px;
+    margin-left: 89px;
+  }
+  .philosophy-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 200px;
+    margin-top: 130px;
+  }
+  .philosophy-container-image2 {
+    margin-top: 0px;
+    width: 400px;
+  }
+  .philosophy-container-image1 {
+    position: absolute;
+    margin-top: 264px;
+    left: 180px;
+    width: 350px;
+    margin-left: 0;
+    margin-top: 100px;
+  }
+  .philosophy-container-dsc {
+    width: 50%;
+    margin-top: 83px;
+  }
+  .brand-name {
+    font-size: 14px;
+  }
+  .philosophy-container-paragraph {
+    padding-right: 60px;
+  }
+  .followus-container-instagram img {
+    width: 190px;
+    height: auto;
+  }
+  .new-collection-container {
+    padding: 40px 40px 0 40px;
+    height: 460px;
+  }
+  .new-collection-container-block {
+    width: 956px;
+  }
+  .new-collection-container-dsc .brand-name {
+    color: #939694;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+  .main-container-scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -147px;
+  }
+  .main-items-container {
+    margin-top: 40px;
+  }
+  .drabyna-container .brand-name {
+    margin-top: 20px;
+  }
+  .drabyna-container-block {
+    width: 960px;
+    top: 294px;
+  }
+  .drabyna-container-dsc {
+    top: -183px;
+    left: -1px;
+  }
+  .welcome-container-forest {
+    margin-top: -282px;
+  }
+  .welcome-container-forest img {
+    width: 359px;
+    height: auto;
+  }
+  .welcome-container-people {
+    position: relative;
+    top: -242px;
+    width: 325px;
+    left: 567px;
+  }
+  .followus-container {
+    margin-top: -150px;
+  }
+  .footer-columns-info {
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 32px;
+  }
+  header {
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  .header-navigation {
+    grid-gap: 10px;
+  }
+  .header-rightside {
+    padding-right: 20px;
+    gap: 10px;
+  }
+  .header-language {
+    position: relative;
+    margin-right: 10px;
+  }
+  .header-currency {
+    position: relative;
+    margin-right: 10px;
+  }
+  .header-currency::after {
+    top: 9px;
+    left: 20px;
+  }
+  .main-container h1 {
+    font-size: 32px;
+    line-height: normal;
+  }
+  .main-container-text {
+    padding-top: 45px;
+  }
+  .main-container p {
+    color: white;
+    margin-top: -23px;
+  }
+  .main-container .button {
+    margin-top: 5px;
+  }
+  .main-container-scroll {
+    margin-top: -102px;
+  }
+  .description-container-image2 {
+    width: 176px;
+    height: auto;
+    margin-top: -120px;
+    margin-left: 572px;
+  }
+
+  .description-container-image1 {
+    margin-left: 13px;
+    width: 183px;
+  }
+  .items-container img {
+    width: 230px;
+    height: 296px;
+  }
+  .item {
+    width: 230px;
+    height: 296px;
+  }
+  .new-collection-container {
+    height: 380px;
+    margin-top: 40px;
+  }
+  .new-collection-container-block {
+    width: 740px;
+  }
+  .new-collection-container-dsc {
+    padding-bottom: 20px;
+  }
+  .new-collection-container-dsc .button {
+    margin-top: 0;
+  }
+  .philosophy-container-image2 {
+    margin-top: 0px;
+    width: 209px;
+  }
+  .philosophy-container-image1 {
+    left: 137px;
+    width: 197px;
+    margin-left: 0;
+    margin-top: 46px;
+  }
+  .philosophy-container {
+    gap: 0px;
+    margin-bottom: 0;
+    margin-top: 35px;
+  }
+  .philosophy-container-paragraph {
+    padding-right: 0;
+  }
+  .philosophy-container-dsc {
+    width: 50%;
+    margin-top: -10px;
+  }
+  .description-container-image3 {
+    width: 190px;
+    margin-top: -5px;
+    margin-left: 570px;
+  }
+  .description-container-image4 {
+    margin-top: -3px;
+    width: 181px;
+    margin-left: 50px;
+  }
+  .drabyna-container-dsc {
+    top: -124px;
+    left: -1px;
+  }
+  .drabyna-container .button {
+    margin-top: -4px;
+    margin-bottom: 20px;
+  }
+  .drabyna-container-block {
+    width: 740px;
+    top: 243px;
+  }
+  .welcome-container-people {
+    position: relative;
+    top: -242px;
+    width: 325px;
+    left: 373px;
+  }
+  .footer-columns-info {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .footer-social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+  }
+  .followus-container-instagram img {
+    width: 166px;
+    height: auto;
+  }
+  .welcome-container {
+    margin-top: -100px;
+  }
+  .welcome-container-forest {
+    margin-top: -228px;
+  }
+  .welcome-container-forest img {
+    width: 289px;
+    height: auto;
+  }
+  .welcome-container-people {
+    position: relative;
+    top: -202px;
+    width: 275px;
+    left: 367px;
+  }
+  .followus-container {
+    margin-top: -59px;
+    padding: 0 40px;
+  }
+  .contact {
+    margin-left: 0;
+    padding-right: 0;
+  }
+  .footer-columns-info {
+    gap: 27px;
+  }
+  .followus-container-instagram {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 50px;
+  }
 }
