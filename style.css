@@ -123,12 +123,10 @@ h2 {
   font-size: 64px;
   text-transform: uppercase;
   font-family: "Dela Gothic One";
-
   line-height: 72px;
 }
 .main-container p {
   color: white;
-
   margin-top: -40px;
 }
 .button {
