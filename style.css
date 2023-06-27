@@ -724,6 +724,74 @@ footer {
     margin-left: 154px;
   }
 }
+@media only screen and (max-width: 1280px) {
+  header {
+    padding-left: 40px;
+  }
+  .header-rightside {
+    padding-right: 40px;
+  }
+  .main-container {
+    padding: 0 40px;
+    margin: 10px 40px;
+    background-size: contain;
+  }
+  .description-container-image1 {
+    margin-left: 218px;
+  }
+  .description-container-image2 {
+    margin-left: 855px;
+  }
+  .main-items-container {
+    padding: 0 40px;
+  }
+  .new-collection-container {
+    padding: 40px 40px 0 40px;
+    height: 521px;
+    width: auto;
+  }
+  .description-container-image3 {
+    width: 317px;
+    margin-top: -77px;
+    margin-left: 853px;
+  }
+  .description-container-image4 {
+    width: 307px;
+    margin-left: 161px;
+  }
+  .drabyna-container .button {
+    margin-top: 36px;
+    margin-bottom: 48px;
+  }
+  .drabyna-container-dsc {
+    top: -273px;
+    left: 0;
+  }
+  .drabyna-container-block {
+    position: relative;
+    width: 1186px;
+    height: auto;
+    top: 315px;
+    right: 0;
+  }
+  .welcome-container-people {
+    position: relative;
+    top: -379px;
+    width: 497px;
+    left: 567px;
+  }
+  .welcome-container-forest {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -470px;
+  }
+  .followus-container {
+    margin-top: -240px;
+  }
+  .contact {
+    margin-left: 137px;
+  }
+}
 @media only screen and (max-width: 1220px) {
   header {
     padding-left: 40px;
@@ -1346,6 +1414,12 @@ footer {
   .item {
     width: 300px;
     height: 370px;
+  }
+  .footer-logo {
+    padding-top: 42px;
+  }
+  .footer-vector {
+    top: 40px;
   }
 }
 @media only screen and (max-width: 480px) {
