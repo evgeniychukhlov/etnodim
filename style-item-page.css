@@ -149,6 +149,9 @@ h2 {
   margin: 0 10px;
   cursor: pointer;
 }
+.item-card-price {
+  font-weight: 700;
+}
 .item-card-size {
   display: flex;
   flex-direction: row;
