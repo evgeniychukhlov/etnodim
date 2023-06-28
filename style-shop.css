@@ -750,3 +750,20 @@ footer {
     justify-content: space-between;
   }
 }
+@media only screen and (max-width: 350px) {
+  .shop-container-items-mob img {
+    width: 150px;
+  }
+  .item-description-price {
+    max-width: 150px;
+  }
+  .item-description-price {
+    min-height: 66px;
+  }
+  .footer-columns-info {
+    gap: 8px;
+  }
+  .footer-social {
+    width: 86px;
+  }
+}
