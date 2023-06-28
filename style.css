@@ -782,6 +782,9 @@ footer {
     width: 497px;
     left: 567px;
   }
+  .sales {
+    margin-top: 180px;
+  }
   .welcome-container-forest {
     display: flex;
     justify-content: flex-end;
@@ -792,6 +795,7 @@ footer {
   }
   .contact {
     margin-left: 137px;
+    padding-right: 70px;
   }
 }
 @media only screen and (max-width: 1220px) {
@@ -849,7 +853,7 @@ footer {
     left: -1px;
   }
   .drabyna-container .button {
-    margin-top: 35px;
+    margin-top: 49px;
   }
   .welcome-container-forest img {
     width: 450px;
@@ -1272,6 +1276,10 @@ footer {
     width: 300px;
     height: 370px;
   }
+  .item {
+    width: 300px;
+    height: 370px;
+  }
   .new-collection-container {
     display: flex;
     flex-direction: column;
@@ -1426,7 +1434,7 @@ footer {
 }
 @media only screen and (max-width: 480px) {
   .main-container {
-    width: 430px;
+    width: 460px;
   }
   .description-container-image1 {
     margin-left: 91px;
@@ -1478,6 +1486,15 @@ footer {
     width: 427px;
     top: 338px;
     left: 7px;
+  }
+  .new-collection-container {
+    height: 166px;
+  }
+  .new-collection-container-block {
+    margin-top: 278px;
+  }
+  .sales {
+    margin-top: 314px;
   }
   .description-container-image3 {
     width: 160px;
