@@ -447,7 +447,7 @@ footer {
   }
   .contact {
     margin-left: 137px;
-    padding-right: 36px;
+    padding-right: 70px;
   }
   .shop-container-sort {
     margin-left: 5px;
@@ -744,5 +744,9 @@ footer {
   }
   .item-description-price {
     min-height: 66px;
+  }
+  .footer-columns-info {
+    gap: 8px;
+    justify-content: space-between;
   }
 }
