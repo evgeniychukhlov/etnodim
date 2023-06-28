@@ -653,7 +653,11 @@ footer {
   .footer-vector {
     top: 40px;
   }
+  .footer-social {
+    width: 86px;
+  }
 }
+
 @media only screen and (min-width: 376px) and (max-width: 480px) {
   .main-preview-image {
     width: 100%;
