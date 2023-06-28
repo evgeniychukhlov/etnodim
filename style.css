@@ -893,7 +893,7 @@ footer {
     padding-right: 100px;
   }
 }
-@media only screen and (max-width: 1084px) {
+@media only screen and (max-device-width: 1084px) {
   .description-container-image1 {
     margin-left: 123px;
   }
